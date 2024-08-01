@@ -20,8 +20,39 @@ This project demonstrates a simple Node.js server that fetches dummy JSON data f
    cd rocketium-node-server
    ```
 
-2. **Set Up .env file**
+2. **Install Dependencies**
+
+    ```bash
+    npm install
+    ```
+
+2. **Set Up Environment Variables**
 
    ```bash
    cp .env.example .env
    ```
+
+### Running the Project
+
+1. **Fetch and Initialize Data**
+
+   ```bash
+   npm run get-data
+   ```
+
+2. **Start the Server**
+
+   ```bash
+   npm run start
+   ```
+
+   The server will be available at http://localhost:3030 by default.
+    &nbsp;
+    **_NOTE:_**: You can customize the port on which the server runs by setting the `PORT` variable in the `.env` file. To do this, add the following line to your `.env` file:
+
+    ```text
+    PORT=your-custom-port
+    ```
+
+    After updating the .env file, restart the server for the changes to take effect.
+

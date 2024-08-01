@@ -11,7 +11,7 @@ const getData = (req, res) => {
   let filteredData = [...data];
 
   for (const key in query) {
-    if (key in fields) {
+    if (fields.includes(key)) {
       const value = query[key];
       filteredData = filteredData.filter((item) => {
         if (typeof item[key] === "number") {

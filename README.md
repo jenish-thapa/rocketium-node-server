@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates a simple Node.js server that fetches dummy JSON data from a file, processes it based on query parameters, and serves it via an API endpoint. It features basic filtering and sorting capabilities.
+This project demonstrates a simple Node.js server that fetches dummy JSON data, stores it, processes it based on query parameters, and serves it via an API endpoint. The project features basic filtering and sorting capabilities. Logging is implemented using Winston, providing insights into server operations, including requests to undefined endpoints.
 
 ## Project Setup
 

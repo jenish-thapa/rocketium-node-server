@@ -1,3 +1,8 @@
+# ignore the .env file
 /.env
 
+# ignore the node_modules
 /node_modules
+
+#ignore the fetched data
+/src/data/dummyData.json

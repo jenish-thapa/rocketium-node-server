@@ -5,7 +5,8 @@
 /node_modules
 
 #ignore the fetched data
-/src/data/dummyData.json
+/src/data/*
+/src/!data/.gitkeep
 
 #ignore the app logs
 /src/app.log

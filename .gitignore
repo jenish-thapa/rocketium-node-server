@@ -6,3 +6,6 @@
 
 #ignore the fetched data
 /src/data/dummyData.json
+
+#ignore the app logs
+/src/app.log

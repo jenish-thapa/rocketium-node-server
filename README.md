@@ -58,39 +58,6 @@ This project demonstrates a simple Node.js server that fetches dummy JSON data, 
 
    After updating the .env file, restart the server for the changes to take effect.
 
-## API Endpoints
+## API Documentation
 
-## Base URL
-
-The base URL for the API is: http://localhost:3030
-
-## Endpoints
-
-### `GET /api/data`
-
-Retrieve filtered, sorted, and paginated data.
-
-#### Query Parameters
-
-- **`field`**: Filter data by a specific field. The field name and value should be specified as `field=value`. For example, `field=name&value=Afzal Ghaffar`.
-- **`sortBy`**: Specify the field to sort by. For example, `sortBy=name`.
-- **`order`**: Specify the sort order. Possible values are `asc` for ascending and `desc` for descending. Default is `asc`. For example, `order=desc`.
-- **`limit`**: Limit the number of results returned. For example, `limit=10`.
-- **`offset`**: Skip a number of results. Useful for pagination. For example, `offset=20`.
-
-#### Additional Information
-
-- **Case Insensitivity**: The filter operation is case-insensitive by default. For example, a filter for `name=afzal ghaffar` will match `Afzal Ghaffar`.
-
-#### Example Requests
-
-1. **Filter by name and language, and sort by version:**
-
-   ```http
-   GET /api/data?name=Afzal Ghaffar&language=Sindhi&sortBy=version
-   ```
-
-2. **Filter by language, sort by version in descending order with an offset of 4 and limit of 5:**
-    ```http
-    GET /api/data?language=sindhi&sortBy=version&order=desc&offset=4&limit=5
-    ```
+[View API Documentation](https://documenter.getpostman.com/view/31053140/2sA3kdBJKJ)

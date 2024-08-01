@@ -47,11 +47,11 @@ This project demonstrates a simple Node.js server that fetches dummy JSON data f
    ```
 
    The server will be available at http://localhost:3030 by default.
+   <br><br>
     **_NOTE:_**: You can customize the port on which the server runs by setting the `PORT` variable in the `.env` file. To do this, add the following line to your `.env` file:
 
     ```text
     PORT=your-custom-port
     ```
-
     After updating the .env file, restart the server for the changes to take effect.
 

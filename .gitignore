@@ -6,7 +6,7 @@
 
 #ignore the fetched data
 /src/data/*
-/src/!data/.gitkeep
+!/src/data/.gitkeep
 
 #ignore the app logs
 /src/app.log

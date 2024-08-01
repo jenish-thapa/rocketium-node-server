@@ -35,7 +35,8 @@ This project demonstrates a simple Node.js server that fetches dummy JSON data, 
 ### Running the Project
 
 1. **Fetch and Initialize Data**
-
+    You just need to run this once while setting up the project.
+    <br>
    ```bash
    npm run get-data
    ```

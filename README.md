@@ -60,4 +60,4 @@ This project demonstrates a simple Node.js server that fetches dummy JSON data, 
 
 ## API Documentation
 
-[View API Documentation](https://documenter.getpostman.com/view/31053140/2sA3kdBJKJ)
+[View API Documentation](https://documenter.getpostman.com/view/31053140/2sA3kdBJKJ){:target="_blank"}
